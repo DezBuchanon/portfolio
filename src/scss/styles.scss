@@ -1,0 +1,96 @@
+.bg-image-full {
+  background: no-repeat center center scroll;
+  background-size: 100% 100%;
+  background-attachment: fixed;
+  height:100vh;
+}
+
+h3, h4, h6, button {
+    font-family:'Fjalla One', sans-serif;
+}
+
+p, li {
+    font-family:'Cantarell', sans-serif;
+}
+
+.hero-text {
+    position: absolute;
+    top: 43%;
+    left: 30%;
+    transform: translate(-50%, -50%);
+    color: white;
+    z-index: 1000;
+    font-family:'Archivo+Black', sans-serif;
+    font-weight: 700;
+    font-size: 3.5em;
+    text-shadow: 1px 1px 2px black;
+  }
+
+  .copyright {
+      text-align: center;
+  }
+
+  @media screen and (max-width: 991.98px) { 
+    #hero-image {
+        height:50vh;
+    }
+
+    .hero-text {
+        font-size: 2em;
+        top:19%;
+    }
+
+    #hd-main {
+        display: none;
+    }
+ }
+
+ @media screen and (min-width: 992px) {
+    #jumbotron {
+        display:none;
+    }
+
+ }
+
+ .hide {
+    display: none;
+ }
+
+ h6 {
+    text-shadow: 1px 1px 2px grey;
+ }
+
+ .copyright {
+     color:white;
+     text-shadow: 1px 1px 2px black;
+     padding-bottom: 30px;
+ }
+
+ .skills-col-1 {
+    color:#000000;
+    text-shadow: 3px 3px 4px white;
+ }
+ 
+ .skills-col-2{
+    color: white;
+    text-shadow: 1px 1px 2px black;
+ }
+ 
+ .bg { 
+    background: url('../img/main-background.png');
+    height: 100%; 
+    background-position: center;
+    background-repeat: no-repeat;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    padding-bottom: 0;
+    margin-bottom: 0;
+}
+
+body {
+    height: 100%;
+}
+
+
